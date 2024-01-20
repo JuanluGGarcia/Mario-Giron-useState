@@ -1,5 +1,8 @@
-const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
-};
+import Home from "./components/home/Home";
 
+const App = () => {
+	return (
+		<Home />
+	);
+};
 export default App;
